@@ -497,13 +497,23 @@ nav {
 .usersTitle {
   border-bottom: 3px solid #222222;
 }
+
 .chat {
   clear: both;
-  height: 400px;
-  width: 800px;
+  border: 3px solid #222222;
+  height: 200px;
+  width: 730px;
+  overflow: auto;
   position: relative;
-  top: 50px;
-  margin: 0 50px;
+  top: 10px;
+  margin: 0px 0px 0px 60px;
+}
+
+.inputMessage {
+  width: 80%;
+}
+.chatMessage {
+  text-align: left;
 }
 
 
