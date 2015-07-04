@@ -45,8 +45,8 @@ app.ChatView = Backbone.View.extend({
   },
 
   addMessage: function(data) {
-    $('.messages').append(
-      '<li><span class="username">' + data.username + '</span>: <span class="message">' + data.message + '</span></li>');
+    $('.messages').prepend(
+      '<li class="chatMessage"><span class="username">' + data.username + '</span>: <span class="message">' + data.message + '</span></li>');
   },
 
   clearMessage: function() {
