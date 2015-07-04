@@ -109,6 +109,7 @@ app.PictureView = Backbone.View.extend({
           }.bind(this))
           .on("dragend", this.model.dragEnded.bind(this.model)));
           //like 'events' hash
+    $('.chat').remove();
     $(options.container[0]).append(this.chatView.$el);
 
   }
